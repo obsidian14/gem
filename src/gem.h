@@ -1,7 +1,14 @@
 #ifndef GEM_H_
 #define GEM_H_
-namespace gem {
-double abs(double f);
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+double gem_abs(double f);
+
+#ifdef __cplusplus
 }
+#endif
 
 #endif
